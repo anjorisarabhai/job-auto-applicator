@@ -1,0 +1,31 @@
+keywords:
+  - "Software Engineer"
+  - "Software Engineering Intern"
+  - "AI Engineer"
+  - "AI Engineering Intern"
+  - "Data Scientist"
+  - "Data Science Intern"
+  - "Data Analyst"
+  - "Data Analyst Intern"
+  - "Machine Learning Intern"
+  - "Deep Learning"
+  - "NLP"
+  - "LLM"
+  - "LangChain"
+  - "Hugging Face"
+
+locations:
+  india:
+    - "Remote"
+    - "Gurugram"
+    - "Delhi"
+    - "Bangalore"
+    - "Mumbai"
+    - "Pune"
+    - "Hyderabad"
+  international:
+    - "Remote"
+
+daily_limit: 10
+resume_path: "resume/Anjori_Sarabhai_Resume.pdf"
+output_log: "logs/applied_jobs.csv"
