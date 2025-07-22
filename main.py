@@ -1,26 +1,28 @@
-import time, random, yaml
-from utils.scraper import get_job_links
+from utils.resume_editor import tailor_resume
 from utils.cover_letter_generator import generate_cover_letter
+from utils.scraper import get_job_links
+import time, random, yaml
 
 # Load config
 with open("config.yaml", "r", encoding="utf-8") as file:
     config = yaml.safe_load(file)
 
-# Get dummy job links (real scraping will come later)
 jobs = get_job_links(config["keywords"], config["locations"])
-
-# Limit to daily limit
 jobs_to_apply = jobs[:config["daily_limit"]]
 
-# Loop and generate cover letters
 for job in jobs_to_apply:
     title = job["title"]
     company = job["company"]
-    print(f"\nApplying to: {title} at {company}")
+    desc = job["description"]
 
+    print(f"\n📌 Applying to: {title} at {company}")
+
+    # Generate tailored cover letter
     generate_cover_letter(title, company)
 
-    # Simulate time delay between applications
+    # Generate tailored resume (basic copy for now)
+    tailor_resume(config["resume_path"], title, desc)
+
     wait = random.uniform(15, 45)
-    print(f"🕒 Waiting for {int(wait)} seconds before next...")
+    print(f"🕒 Waiting {int(wait)} seconds...")
     time.sleep(wait)
