@@ -1,8 +1,8 @@
-Subject: Machine Learning Intern Application
+Subject: AI Engineering Intern Application
 
-Dear Hiring Team at Hugging Face,
+Dear Hiring Team at OpenAI,
 
-I am writing to express my interest in the Machine Learning Intern position at Hugging Face. I am currently pursuing a B.Tech in Computer Science with a specialization in Data Science at The NorthCap University, graduating in 2026.
+I am writing to express my interest in the AI Engineering Intern position at OpenAI. I am currently pursuing a B.Tech in Computer Science with a specialization in Data Science at The NorthCap University, graduating in 2026.
 
 My work at DRDO and Constems-AI Systems has given me hands-on experience in developing intelligent systems and analytics platforms. At DRDO, I built a full-stack palm vein authentication system powered by Convolutional Neural Networks (CNNs) and Flask APIs. I also developed aerial object recognition models using deep learning and image processing techniques. This work strengthened my understanding of computer vision workflows and deploying deep learning in real-world environments.
 
@@ -12,7 +12,7 @@ In other projects, I built a hybrid music recommendation engine using NLP models
 
 My skill set includes Python, SQL, Java, and full-stack development tools like HTML, CSS, JavaScript, Bootstrap, and React.js. I am also experienced with ML libraries (TensorFlow, Keras, Scikit-learn), data tools (Pandas, NumPy, Matplotlib), and cloud environments. I work comfortably with version control (Git) and core software principles like OOP, data structures, and system design.
 
-I deeply admire Hugging Face’s reputation for innovation and would be thrilled to contribute meaningfully in a rigorous, collaborative environment. I’m eager to start in a role where I can learn continuously and grow into a full-time position.
+I deeply admire OpenAI’s reputation for innovation and would be thrilled to contribute meaningfully in a rigorous, collaborative environment. I’m eager to start in a role where I can learn continuously and grow into a full-time position.
 
 Thank you for your time and consideration.
 
